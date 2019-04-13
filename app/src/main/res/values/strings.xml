@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Placapp</string>
+    <string name="label_header">Clubes</string>
+    <string name="label_home">Home</string>
+    <string name="label_away">Visitant</string>
+    <string name="label_start_game">Start Game</string>
+    <string name="hint_squadname">Squad Name</string>
+    <string name="label_gol">Gol</string>
+</resources>

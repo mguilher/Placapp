@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/label_header"
+              android:textSize="37sp"
+              android:textStyle="bold|italic"
+              android:gravity="center"/>
+
+    <TextView android:text="@string/label_home" style="@style/label"/>
+
+    <EditText style="@style/input" android:hint="@string/hint_squadname" android:id="@+id/inputHome"/>
+
+    <TextView android:text="@string/label_away" style="@style/label"/>
+
+    <EditText style="@style/input" android:hint="@string/hint_squadname" android:id="@+id/inputAway"/>
+
+    <Button style="@style/button" android:text="@string/label_start_game" android:id="@+id/btnStart"/>
+
+</LinearLayout>

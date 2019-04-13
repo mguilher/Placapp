@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Placapp</string>
+    <string name="label_home">Casa</string>
+    <string name="label_start_game">Iniciar Jogo</string>
+    <string name="label_header">Clubes</string>
+    <string name="label_away">Visitant</string>
+    <string name="hint_squadname">Nome do Time</string>
+    <string name="label_gol">Gol</string>
+</resources>
